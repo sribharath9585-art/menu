@@ -115,7 +115,7 @@ while True:
             n=int(input("Enter Student ID to Delete :"))
             if n in d:
                 d.pop(n)
-                l.remove(name)
+                l.remove(n)
                 print("Record Deleted Successfully!")
                 hi=False
             else:
